@@ -1,7 +1,8 @@
 package com.financeDashboard.backend.dto;
 
-import com.financeDashboard.backend.model.Category;
-import com.financeDashboard.backend.model.TransactionType;
+import com.financeDashboard.backend.entity.Category;
+import com.financeDashboard.backend.entity.TransactionType;
+import com.financeDashboard.backend.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -22,7 +23,7 @@ public class FinanceRecordResponse {
     private Category category;
     private LocalDate recordDate;
     private String notes;
-    private String createdBy;
+    private User createdBy;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 }

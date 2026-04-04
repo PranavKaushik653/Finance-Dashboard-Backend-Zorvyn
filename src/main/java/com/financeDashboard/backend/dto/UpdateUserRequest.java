@@ -1,6 +1,6 @@
 package com.financeDashboard.backend.dto;
 
-import com.financeDashboard.backend.model.Role;
+import com.financeDashboard.backend.entity.Role;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Size;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.financeDashboard.backend.model;
+package com.financeDashboard.backend.entity;
 
 public enum Category {
     SALARY,

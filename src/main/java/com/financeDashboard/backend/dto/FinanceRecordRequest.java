@@ -1,7 +1,7 @@
 package com.financeDashboard.backend.dto;
 
-import com.financeDashboard.backend.model.Category;
-import com.financeDashboard.backend.model.TransactionType;
+import com.financeDashboard.backend.entity.Category;
+import com.financeDashboard.backend.entity.TransactionType;
 import jakarta.validation.constraints.*;
 import lombok.Data;
 

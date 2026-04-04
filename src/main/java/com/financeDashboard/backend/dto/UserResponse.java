@@ -1,6 +1,6 @@
 package com.financeDashboard.backend.dto;
 
-import com.financeDashboard.backend.model.Role;
+import com.financeDashboard.backend.entity.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
