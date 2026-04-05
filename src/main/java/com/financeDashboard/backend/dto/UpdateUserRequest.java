@@ -13,5 +13,5 @@ public class UpdateUserRequest {
     @Size(min = 6, message = "Password must be at least 6 characters")
     private String password;
     private Role role;
-    private boolean active;
+    private Boolean active;
 }

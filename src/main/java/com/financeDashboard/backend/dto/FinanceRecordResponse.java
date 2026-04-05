@@ -23,7 +23,7 @@ public class FinanceRecordResponse {
     private Category category;
     private LocalDate recordDate;
     private String notes;
-    private User createdBy;
+    private String createdBy;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 }

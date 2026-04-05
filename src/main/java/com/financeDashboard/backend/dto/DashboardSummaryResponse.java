@@ -13,7 +13,7 @@ import java.util.Map;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Dashboard {
+public class DashboardSummaryResponse {
 
     private BigDecimal totalIncome;
     private BigDecimal totalExpenses;
