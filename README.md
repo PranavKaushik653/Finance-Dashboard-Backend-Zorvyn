@@ -36,16 +36,16 @@ This system serves as the backend for a finance dashboard where different users 
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Language | Java 17 |
-| Framework | Spring Boot 3.2.4 |
+| Layer | Technology                          |
+|---|-------------------------------------|
+| Language | Java 21                             |
+| Framework | Spring Boot 3.5.3                   |
 | Security | Spring Security + JWT (jjwt 0.12.5) |
-| Persistence | Spring Data JPA + Hibernate |
-| Database | H2 In-Memory |
-| Validation | Jakarta Bean Validation (JSR-380) |
-| Build Tool | Maven |
-| Utilities | Lombok |
+| Persistence | Spring Data JPA + Hibernate         |
+| Database | H2 In-Memory                        |
+| Validation | Jakarta Bean Validation (JSR-380)   |
+| Build Tool | Maven                               |
+| Utilities | Lombok                              |
 
 ---
 
@@ -95,7 +95,6 @@ src/main/java/com/finance/
 
 src/main/resources/
 ├── application.properties
-└── data.sql                         # Seed data (3 users + 10 records)
 ```
 
 ---
